@@ -126,6 +126,61 @@ border-radius: 50%;
     100%{transform;:(0deg)}
 }
 
+.ex-12-button, .ex-13-button {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 70px;
+    text-transform: uppercase;
+    border: 3px solid #1b3c59;
+    color: #1b3c59;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;}
+    
+.ex-12-top-white, .ex-13-top-white {
+    position: absolute;
+    top: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 60px;
+    height: 20px;
+}
+
+
+ .ex-12-button:hover .ex-12-top-white{ 
+    animation: moving 3s linear;
+}
+
+@keyframes moving {
+
+    0%{left: 20%;}
+    50%{left:40%}
+    100%{left:20%}
+}
+
+
+
+.ex-12-button:hover .ex-12-bottom-white{ 
+    animation: moves 2s linear;
+}
+
+@keyframes moves {
+
+    0%{right: 20%;}
+    50%{right:40%}
+    100%{right:20%}
+}
+
+
+
+
+
+
+
+
+
 
 
 
