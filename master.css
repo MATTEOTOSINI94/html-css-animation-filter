@@ -19,7 +19,7 @@
    
 }
 .ex-2-square:active{
-    width: 1000px;
+   width: 100%;
 }
 
 .ex-3-square {
@@ -60,9 +60,7 @@ border-radius: 50%;
 }
 
 .ex-5-square:active{
-    margin: 40px;
-    width: 30px;
-    height: 30px;
+   transform: scale(1.0);
 
 }
 
@@ -75,7 +73,7 @@ border-radius: 50%;
 }
 
 .ex-7-img:hover{
-    filter: grayscale(.6) sepia(.5);
+    filter: grayscale(0.5);
 }
 
 .ex-8-img{
@@ -83,7 +81,7 @@ border-radius: 50%;
 }
 
 .ex-8-img:hover{
-    filter: grayscale(.6) sepia(.5);
+    filter: grayscale(0.6) ;
     border-radius: 20px;
 }
 
